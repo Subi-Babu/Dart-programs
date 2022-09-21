@@ -14,4 +14,14 @@ void main()
    
 
    final dob = "20/7/1999";
+
+   const year = 2021;
+
+   String stroreduname = "admin";
+   String entereduname = "admin";
+   int storedpassword = 1234;
+   int enteredpassword = 1234;
+   
+   print(stroreduname == entereduname && storedpassword == enteredpassword);
+
 }
