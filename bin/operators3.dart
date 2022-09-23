@@ -33,4 +33,34 @@ print("***************************");
   print(l >> 2);//right shift(0000 11 = 3)
   print(l << 1);//0000 1101 << 1= 0001 1010)
   print(l << 3);
+   print("***************************");
+  print("TYPECAST OPERATORS");
+  var data = 20;
+  print(data is  int);
+  print(data is!  int);
+  print(data is  String);
+ print("***************************");
+  print("TERNARY OPERATORS");
+  int age = 20;
+  String result = age >= 20 ? "Welcome to vote" : "not eligible for vote";
+  //var result = age >= 20 ? "Welcome to vote" : "not eligible for vote";
+   print(result);
+
+   int mark = 40;
+   String test = mark < 40 ? "You failed the exam" : "You passed the exam";
+   print(test);
+
+var username;
+var password;
+var login = (username == 'admin' && password == 1234) ?  "Login sucessful" : "Login Failure";
+print(login);
+
+// largest of two number
+int a =10 ,b =20;
+String value = a > b ? "10 is  largest" : "20 is  largest";
+print(value);
+//largest of three number
+int a1 = 10 ,b1 = 20, d1 = 70;
+var value1 = (a1 > b1) ? (a1 > d1 ? a1 : d1): (b1 >d1 ? a1 : d1);
+print(value1);
 }
