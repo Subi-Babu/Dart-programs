@@ -1,6 +1,7 @@
 void main() {
   int evnsum = 0, oddsum = 0;
-  for (int i=1 ; i<=10; i++){
+  for (int i=1 ; i<=10; i++)
+  {
 
     if(i % 2 == 0){
         evnsum = evnsum + i;      
