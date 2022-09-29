@@ -6,8 +6,15 @@ void main(){
   print(names);
 
   //2.List.empty()
- // List list1 = List.empty();//by default growable=false means cannot add more values
+ // List list1 = List.empty();//by default growable=false means cannot add more values OR
   List list1 = List.empty(growable: true);
   list1.add(20);
+  list1.add("hai");
   print(list1);
+
+  ////3.List.filled()
+  List list2 = List.filled(5, 1, growable: true);
+  list2.add(2);
+  list2[1] = 3;
+  print(list2);
 }
