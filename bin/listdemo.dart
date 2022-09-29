@@ -16,5 +16,9 @@ void main(){
   List list2 = List.filled(5, 1, growable: true);
   list2.add(2);
   list2[1] = 3;
+  list2[4] = 39;
+  list2[5] = 9;
+  list2.add(10);
+  print("index of 7 = ${list2.indexOf(7)}");
   print(list2);
 }
