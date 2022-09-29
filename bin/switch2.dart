@@ -13,6 +13,8 @@ void main(){
      break;
      case 'september' : print('month is september');
      break;
+     case 'december' : print('month is december');
+     break;
      default : print('none of these');
 
    }
