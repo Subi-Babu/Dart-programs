@@ -1,7 +1,7 @@
 void main(){
   //1.list using direct value
-  String name = "haritha"; 
-  List<String> names = ["ammu","siya","sinu","akhil"]; //growable list
+    String name = "haritha"; 
+  List  names = ["ammu","siya","sinu","akhil"]; //growable list
   names.add("pink");
   print(names);
 
@@ -21,4 +21,9 @@ void main(){
   list2.add(10);
   print("index of 7 = ${list2.indexOf(7)}");
   print(list2);
+
+  
+
+
+
 }
