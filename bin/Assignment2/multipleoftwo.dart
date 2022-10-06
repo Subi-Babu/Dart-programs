@@ -1,0 +1,1 @@
+// find the numbers which are multiple of 2 from the above list
