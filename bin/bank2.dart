@@ -1,8 +1,10 @@
 class bank{
-   void details(String name,int accountno,String type){
-      print("print name=$name");
-       print("print account number=$accountno");
-      print("print acc. type=$type");
+   void details(String name,int accountno,String location,int ifsc,String type){
+      print("bank name=$name");
+       print("account number=$accountno");
+       print("location=$location");
+       print("IFSC code=$ifsc");
+      print(" acc. type=$type");
      }
  }
 class FB extends bank{
@@ -14,10 +16,9 @@ class HDFC extends bank{
  void main() {
     FB obj = FB();
     print("Bank name : ${obj.name}");
-    obj.details("sanu",3456789,"saving");
+    obj.details("sanu",3456789,"kollam",23456,"saving");
     print("*******");
      HDFC obj1 = HDFC();
     print("Bank name : ${obj1.name}");
-    obj1.details("sanu",23456789,"recurring");
- 
+    obj1.details("Chinnu",23456789,"kochi",345677,"saving"); 
 }
